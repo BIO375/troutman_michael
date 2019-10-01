@@ -112,7 +112,9 @@ ggplot(data = data3)+
   stat_summary(aes(x = type, y = measurement), fun.y=mean, colour="darkred", geom="point", 
                shape=18, size=3)
 
+Non-Lab stuff
 
-
+data01<- read_csv("datasets/abd/chapter12/chapter12e3HornedLizards.csv")
+data01 <- data01 %>% slice(-105)
 
 

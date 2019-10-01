@@ -161,3 +161,5 @@ ggplot(Sanchez) +
 
 ggplot(Sanchez) + 
   geom_boxplot(aes(x = Bird_Colony, y = log_Beetle), notch = FALSE, varwidth = TRUE)
+
+data01<- read_csv("datasets/abd/chapter12/chapter12e3HornedLizards.csv")
