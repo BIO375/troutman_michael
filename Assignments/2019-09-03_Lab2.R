@@ -114,7 +114,11 @@ ggplot(data = data3)+
 
 Non-Lab stuff
 
+<<<<<<< HEAD
 data01<- read_csv("datasets/abd/chapter12/chapter12e3HornedLizards.csv")
 data01 <- data01 %>% slice(-105)
+=======
+### CODE RUNS CORRECTLY 10/10 ####
+>>>>>>> e59a1b297a751e46da9cf09218946fc631b7f7fc
 
 
