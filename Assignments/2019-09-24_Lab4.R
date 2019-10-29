@@ -23,7 +23,7 @@ sum_B_D <- B_D %>%
 view(sum_B_D)
 
 ggplot(B_D) +
-  geom_boxplot(aes(x = Country, y = Birth_Difference), notch = FALSE, varwidth = TRUE)
+  geom_boxplot(aes(x = "", y = Birth_Difference), notch = FALSE, varwidth = TRUE)
 
 ggplot(B_D) + 
   geom_histogram(aes(Birth_Difference), binwidth = .5)

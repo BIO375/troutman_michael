@@ -81,7 +81,7 @@ t.test(range_shift$elevationalRangeShift,
 
 # One-sided, HA that sample mean is less than null mean
 t.test(range_shift$elevationalRangeShift, 
-       alternative = "less", mu = 0, conf.level = 0.95)
+       alternative = "less", mu = 0, conf.level = 0.95) 
 
 
 
