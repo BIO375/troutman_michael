@@ -159,7 +159,7 @@ summary(tukey)
 # This is a very simple test output, it gives you a test statistic, df, and p
 
 kruskal.test(growth.rate ~ parasite, data = daphnia)
-summary(kruskal)
+
 
 ### Robust Welch's ANOVA ####
 
@@ -216,6 +216,8 @@ repeatability
 
 # End of story, 74% of walking stick femur length is due to variability among actual
 # insects, not picture analysis issues.
+
+
 
 
 
