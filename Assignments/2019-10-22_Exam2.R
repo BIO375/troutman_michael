@@ -22,6 +22,8 @@ library(readr)
 Yellowness <- read_csv("Assignments/Yellowness.csv")
 View(Yellowness)
 
+#### CODE BREAKS BECAUSE THERE IS NO FILE YELLOWNESS, not pushed to Git ####
+
 summ_Y_Data <- Yellowness  %>%
   summarise(mean_Feather_Difference = mean(Feather_Difference),
             sd_Feather_Difference = sd(Feather_Difference),
@@ -53,6 +55,8 @@ ggplot(Yellowness)+
 
 feathers <- mutate(feathers, diff = log(odd+1)  - log(typical+1))
 
+#### CAN'T DO THIS TRANSFORMATION.  LOG+1 IS TO DEAL WITH ZEROES, NOT NEGATIVES ####
+
 #In order to do the test I transformed the original dataset (not the excel I made)
 #because I finally remembered how. 
 
@@ -66,6 +70,8 @@ t.test(feathers$odd, feathers$typical,
 library(readr)
 baker <- read_csv("datasets/exams/baker.csv")
 View(baker)
+
+#### CODE BREAKS BECAUSE THERE IS NO FILE Baker_Difference.csv, not pushed to Git ####
 
 library(readr)
 Baker_D <- read_csv("Assignments/Baker_Difference.csv")
@@ -105,6 +111,9 @@ SignTest(Baker_D$Antibody_Difference,
 #Question 11
 
 library(readr)
+
+#### CODE BREAKS BECAUSE THERE IS NO FILE Fossil_Fuels, not pushed to Git ####
+
 Fossil_Fuels <- read_csv("Assignments/Fossil_Fuels.csv")
 View(Fossil_Fuels)
 
@@ -129,3 +138,5 @@ ggplot(Fossil_Fuels)+
 #Since both are fairly normal, a 2-sample t-test can be conducted.
 
 t.test(Growth_Rate ~ Treatment, data = Fossil_Fuels, var.equal = TRUE, alternative = "two.sided", conf.level = 0.95)
+
+#### Code breaks 3 times 3/6 pts ####
