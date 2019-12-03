@@ -52,3 +52,5 @@ ggplot(data = DV)+
   geom_point(aes(x = Age, y = resid(model03)))
 
 summary(model03)
+
+#### Code runs perfectly 5/5 ####
