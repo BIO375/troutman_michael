@@ -135,6 +135,7 @@ t.test(ZF$log_preference,
 #Since the t-statistic is more extreme than the known value, we reject the null hypothesis
 #that red beaks are less or equally preffered.
 
+# Missing problem 16 from the Review chapter
 
 
 

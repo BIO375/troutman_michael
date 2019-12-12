@@ -57,3 +57,9 @@ ggplot(data01) +
   facet_wrap(~Survival)
 
 
+# Code breaks at line 14.  Code refers to a working directory somewhere on your machine (?)
+# and is not reproducible.
+# Instead put the file in your repo and then refer to its location within the repo
+# E.g., "datasets/demos/B_D.csv"
+
+# Code breaks once 9/10 ####

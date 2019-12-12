@@ -91,3 +91,12 @@ ggplot(MS)+
 
 t.test(MS$HORIZDIM, MS$HORIZLIG, 
        alternative = "two.sided", paired = TRUE, conf.level = 0.95)
+
+# Code breaks at line 13.  Code refers to a working directory somewhere on your machine (?)
+# and is not reproducible.
+# Instead put the file in your repo and then refer to its location within the repo
+# E.g., "datasets/demos/O_data.csv"
+
+# Code breaks once 9/10 ####
+
+
